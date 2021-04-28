@@ -5,7 +5,7 @@ int binarySearch(int arr[], int left, int right, int key){
     
     if(left > right) return -1;
     
-    int mid = left + (right - left) / 2;
+    int mid = left + ((right - left) / 2);
     //cout<<left<<" "<<mid<<" "<<right<<endl;
     
     if(arr[mid] == key) return mid;
